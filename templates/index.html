@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+</head>
+<body>
+    <div style="background-color: #454545; text-align: center; padding: 10px; color: white;">
+     <p>Minha primeira Páginas!</p>
+    </div>
+
+    <div style="text-align: center;">
+     <p>Olá, eu sou o {{dev}}</p>
+    </div>
+
+    <div style="align-content: center;">
+        <form action="/receberNome" method="post">
+            <label for="">Nome</label>
+            <input type="text" id="nomeUsuario" name="user">
+            <br>
+            <label for="">Cargo</label>
+            <input type="text" id="userCargo" name="userCargo">
+            <br>
+            <label for="">Senha</label>
+            <input type="password" id="userPassword" name="userPassword">
+            <button>Enviar</button>
+        </form>
+        <a style="color:red">{{mensagem}}</a>
+    </div>
+
+</body>
+</html>
